@@ -1,0 +1,19 @@
+{
+  "name": "workshop-devops-fe-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "esbuild index.js --platform=node --bundle --minify --outfile=built/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "esbuild": "^0.14.47"
+  }
+}
